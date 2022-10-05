@@ -12,6 +12,11 @@ ASSIGNMENT RULES
  Enumerate and describe the main datatypes in JavaScript. Try to explain the concepts as you were speaking to a 12 years old.
 */
 //string- is a series of characters or are words e.g. 'Flavia' they are usually written in quotes */
+let word='string'
+let word2= 'is a series of characters'
+let space=' '
+let combinedWords12= word + space + word2
+console.log(combinedWords12)
 //Nummbers/Integers - which are wriyyen with or without decimals.
 //Booleans- represented by two values True or False
 //Objects- used to store collections of data and more complex entities
@@ -27,28 +32,36 @@ ASSIGNMENT RULES
 
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
-*/let x= 12
-let y= 20
-let total= x+y;
+ 
+*/let sum = 12+20
+//or
+let n= 12 
+n+=20
+//or
+let y= 12
+let m= 20
+let total = x+y;
 console.log(total)
 
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
-*/
+*/let x = 12
 
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
-*/
+*/let name = 'John Doe'
 
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
-*/
+*/let subtraction = 12
+let totalSub = 12-x;
+console.log(totalSub)
 
 /* WRITE YOUR ANSWER HERE */
 
@@ -57,7 +70,11 @@ console.log(total)
  Verify that name1 is different from name2 (HINT: check their equality to be false).
  Finally, verify that the equality between name1 and name2 becomes true if both are lowercase (without changing the value of name2).
 */
-
+let name1='john'
+let name2='John'
+if (name1 < John){
+    console.log('/nname1 is different from name2')
+} else{ console.log('/nboth are equal')}
 /* WRITE YOUR ANSWER HERE */
 
 /* EXERCISE 8
@@ -66,6 +83,10 @@ console.log(total)
 */
 
 /* WRITE YOUR ANSWER HERE */
+let xx= 9
+if (xx=1){console.log('/none')
+if (xx=5){console.log('/nfive')}
+} else {console.log('/nzero')}
 
 /* EXERCISE 9
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
